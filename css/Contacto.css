@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body {
+    background-color: #F3E3C5;
+}
+header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+header img {
+    width: 15%;
+    margin-left: 20px;
+    margin-right: 100px;
+}
+nav {
+    background-color: #46ebd5;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+nav .menulista {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav .menulista li{
+    list-style: none;
+}
+nav .menulista li a{
+    text-decoration: none;
+    font-family: cursive;
+    color: black;
+    font-size: 15px;
+    margin: 18px;
+}
+.banner img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.texto {
+    position: absolute;
+    text-align: center;
+    top: 160px;
+    right: 0;
+    left: 25px;
+}
+.texto h1 strong{
+    color: white;
+    font-size: 100px;
+    font-family:cursive;
+}
+
+/* bloque servicios */
+
+main { 
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;   
+    padding: 80px 0; 
+     
+     
+}
+
+.servicios{ 
+    display: flex; 
+    flex-direction: column; 
+    background-color: #eceef1;
+}
+.servicios h1{ 
+    padding-top: 20px; 
+    color: black;
+}
+.servicios section{ 
+    width: 80%;  
+    display: flex; 
+    justify-content: space-around; 
+    color: black;
+}
+.servicios section figure{ 
+    width: 25%;  
+    padding: 30px; 
+    text-align: center;
+}
+.servicios section figure img{ 
+    width: 100px;
+    height: 100px;
+}
+.servicios section figure h3{ 
+    font-size :18px;
+} 
+ /* mapa */
+.mapa{
+    background-color: #eceef1;
+}
+.mapa h1 {
+    text-align: center;
+    color: black;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+main{
+    display: flex;
+}
+aside{
+    width: 50%;
+    padding-bottom: 40px;
+}
+aside h1{
+    padding-top: 20px ;
+    padding-left: 65px;
+    text-align: left;
+    color: #61BD0D;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: arial narrow;
+}
+aside h2{
+    padding-left: 65px;
+    text-align: left;
+    font-weight: lighter;
+    color: white;
+    font-size: 18px;
+    font-family: arial narrow;
+}
+
+
+
+
+
+
+
+
+
+.formulario{
+    width: 60%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 85px;
+    border-radius: 10px;
+    border: 1px solid #C5D5DC;
+    background-color: white;
+    margin-left: 30px;
+}
+.caja{
+    width: 404px;
+    padding: 5px;
+    border-radius: 2px;
+    margin: 3px 0;
+    color: rgb(27, 43, 48);
+    border: 1px solid rgb(174, 201, 207);
+    background-color:white;
+    font-family: arial;
+    font-size: 13px;
+    
+}
+.h2{
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 13px;
+}
+.coment{
+    font-size: 11px;
+    font-family: Helvetica;
+}
+.TextA{
+    color: rgb(27, 43, 48);
+    border: 1px solid rgb(174, 201, 207);
+    background-color: white;
+    font-family: arial;
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 2px;
+    margin: 3px 0;
+    
+}
+.boton{
+    background-color: green;
+    color:white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 3px;
+    margin: 14px,0px,0px,0px;
+    font-size: 13px;
+    font-family: arial;
+}
+.boton:hover{
+    color:rgb(255, 255, 0);
+    transition: all 2s;
+}
+
+
+
+/* pie de pagina */
+/* forter */
+footer{
+    background: #0d5e53;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    box-shadow: 0 0 6px 0 rgba(231, 6, 6, 0.5);
+}
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+.content-foo{
+    text-align: center;
+    box-shadow: 0 0 6px 0 rgba(231, 6, 6, 0.5);
+}
+.content-foo h4{
+    border-bottom: 3px solid #af20d3;
+    text-align: center;
+}
+.content-foo p{
+    color: #ccc;
+    
+}
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}

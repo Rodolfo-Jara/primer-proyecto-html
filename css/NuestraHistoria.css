@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body {
+    background-color: #F3E3C5;
+}
+header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+header img {
+    width: 15%;
+    margin-left: 20px;
+    margin-right: 100px;
+}
+nav {
+    background-color: #46ebd5;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+nav .menulista {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav .menulista li{
+    list-style: none;
+}
+nav .menulista li a{
+    text-decoration: none;
+    font-family: cursive;
+    color: black;
+    font-size: 15px;
+    margin: 18px;
+}
+.banner img {
+    width: 1349px;
+    height: 500px;
+    position: relative;
+}
+.texto {
+    position: absolute;
+    text-align: center;
+    top: 160px;
+    bottom: 0;
+    right: 0;
+    left: 25px;
+}
+.texto h1 strong{
+    color: white;
+    font-size: 100px;
+    font-family:cursive;
+}
+
+
+
+.acercade {
+    background-color: whitesmoke;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    padding: 50px 0px;
+ }
+.acercade p, h2 {
+    font-family: 'open sans'; 
+}
+.acercade section {
+    width: 80%; 
+    display: flex; 
+    flex-direction: row;
+}
+.acercade section p {
+    padding: 60px;
+}
+.acercade  h2 {
+    padding-bottom: 30px; 
+    color: darkblue;
+}
+.acercade img {
+    width: 300px;
+    height: 300px;
+}
+
+
+/* pie de pagina */
+/* forter */
+footer{
+    background: #0d5e53;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    box-shadow: 0 0 6px 0 rgba(231, 6, 6, 0.5);
+}
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+.content-foo{
+    text-align: center;
+    box-shadow: 0 0 6px 0 rgba(231, 6, 6, 0.5);
+}
+.content-foo h4{
+    border-bottom: 3px solid #af20d3;
+    text-align: center;
+}
+.content-foo p{
+    color: #ccc;
+    
+}
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
